@@ -44,10 +44,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-    private void metodosUsuario(){
-        user.setPrecoo(preco.getText().toString());
-    }
-
+   
     private String formataValor(double valor) {
         return String.format(Locale.FRANCE,"%.2f",valor);
     }
